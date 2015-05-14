@@ -1,0 +1,27 @@
+name:                fingmodules
+version:             0.1.0
+synopsis:            An implementation of the paper "F-ing Modules"
+description:         An implementation of the paper "F-ing Modules"
+license:             BSD3
+license-file:        LICENSE
+author:              Matthew Wraith
+maintainer:          wraithm@gmail.com
+-- copyright:           
+category:            Language
+build-type:          Simple
+-- extra-source-files:  
+cabal-version:       >=1.10
+
+library
+  -- exposed-modules:     
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       
+    base >=4.7 && <4.8,
+    containers >= 0.5.5.1,
+    parsec >= 3.1.9,
+    pretty >= 1.1.1.1,
+    bound >= 1.0.1,
+    prelude-extras >= 0.4
+  hs-source-dirs:      src
+  default-language:    Haskell2010
